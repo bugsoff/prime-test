@@ -1,0 +1,31 @@
+#close {
+	cursor: pointer;
+}
+#close:hover {
+	font-weight: 600;
+}
+
+.category {
+	height: 100px;
+}
+
+.category div.active:hover {
+	cursor: pointer;
+	background-color: white;
+	border: solid 1px rgb(13, 110, 253);
+	height: 100px;
+}
+
+.card img {
+	max-width: 320px;
+	max-height: 320px;
+}
+
+.card:hover {
+	border-color: dodgerblue;
+}
+
+.product div img {
+	max-width: 400px;
+	max-height: 512px;
+}
